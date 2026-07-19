@@ -63,12 +63,13 @@
       flex-wrap: wrap;
     }
 
-    h1 {
-      margin: 0;
-      font-size: 27px;
-      font-weight: 700;
-      text-wrap: balance;
-    }
+ h1 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-wrap: balance;
+}
 
     .copy-badge {
       font-size: 13px;
@@ -80,32 +81,31 @@
       white-space: nowrap;
     }
 
-    .logo-slots {
-      display: flex;
-      gap: 10px;
-    }
-
+   .logo-slot {
+  width: 88px;
+  height: 88px;
+}
     /* Placeholder until the real logos are ready — replace each
        .logo-slot with an <img class="logo-img"> when available */
-    .logo-slot {
-      width: 64px;
-      height: 64px;
-      border: 1.5px dashed var(--hairline-soft);
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 11.5px;
-      font-weight: 500;
-      color: var(--ink-muted);
-      user-select: none;
-    }
+  .logo-slot {
+  width: 88px;
+  height: 88px;
+  border: 1.5px dashed var(--hairline-soft);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--ink-muted);
+  user-select: none;
+}
 
-    .logo-img {
-      width: 64px;
-      height: 64px;
-      object-fit: contain;
-    }
+   .logo-img {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+}
 
     .title-rule {
       width: 56px;
